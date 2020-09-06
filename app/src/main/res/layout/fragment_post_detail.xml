@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.main_frag.PostDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:id="@+id/title_post_det_frag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textSize="35dp"
+            android:textColor="@color/textColor"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="description"
+            android:textColor="@color/textColor"
+            android:textSize="28dp"
+            android:id="@+id/desc_post_det_frag"
+            />
+        <RelativeLayout
+            android:id="@+id/rel_post_det_frag"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="10dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/photo_post_det_frag"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
